@@ -1,0 +1,68 @@
+body{
+  background-color: #cce8f4;
+}
+.App{
+  font-family: 'Bruno Ace SC', cursive;
+  font-size: 20pt;
+  text-align: center;
+  letter-spacing: 1pt;
+}
+.App .start{
+  max-width: 210px;
+  cursor: pointer;
+  display: block;
+  margin: auto;
+}
+.App .game{
+  display: flex;
+  margin-top: 50px;
+}
+.App .game .player{
+    flex-grow: 1;
+}
+.App .game .player span{
+  cursor: pointer;
+  display: inline-block;
+  text-align: center;
+  font-size: 0.75em;
+}
+.App .game .player img{
+  max-width: 150px;
+  display: block;
+  margin: 0 15px 15px;
+}
+.App .game .computer{
+    flex-grow: 1;
+}
+.App .game .player.selected img,
+.App .game img{
+  max-width: 180px;
+  margin: auto;
+}
+.App pre{
+  padding: 10px;
+  text-align: left;
+  font-size: 20pt;
+  letter-spacing: normal;
+}
+.App .Results{
+  letter-spacing: normal;
+  font-size: 50pt;
+}
+.App .Results img{
+  display: block;
+  max-width: 100px;
+  cursor: pointer;
+  margin: auto;
+} 
+.App input{
+  font-family: inherit;
+  font-size: 0.8em;
+  text-align: center;
+  width: 64%;
+  padding: 10px;
+  line-height: 1;
+  background-color: #eef;
+  border: 2px solid #ccf;
+  border-radius: 5px;
+}
